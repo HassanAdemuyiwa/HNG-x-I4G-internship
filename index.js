@@ -32,6 +32,7 @@ app.post('/contact', (req, res) => {
         }
     })
     res.json({message: "Message received!!!"})
+   
 })
 
 app.listen(PORT, ()=>{
